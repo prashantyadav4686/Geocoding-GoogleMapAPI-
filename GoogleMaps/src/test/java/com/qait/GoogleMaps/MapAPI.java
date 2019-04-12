@@ -13,7 +13,7 @@ import org.json.simple.JSONObject;
 
 public class MapAPI {
 	private static final String URL = "https://maps.googleapis.com/maps/api/geocode/json";
-	private static final String API_key = "AIzaSyAHMGDrTEvBgSceeYitpYxdlISGK-QSJtw"; 
+	private static final String API_key = " "; 
 	public String getJSONByGoogle(String fullAddress) throws IOException {
 		URL url = new URL(URL + "?address=" + URLEncoder.encode(fullAddress, "UTF-8")
 		+"&key="+API_key+ "&sensor=false");
