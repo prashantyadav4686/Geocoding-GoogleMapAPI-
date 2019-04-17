@@ -15,7 +15,7 @@ import org.json.simple.parser.ParseException;
 /**
  * Unit test for simple App.
  */
-public class AppTest {
+public class GeocodingTest {
 	MapAPI ma = new MapAPI();
 	@Test()
 	public void Test01_Map() throws IOException, ParseException {
